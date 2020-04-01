@@ -13,3 +13,7 @@
 > 4. 用vs打开cs文件夹的QQ_LOCAL项目
 > 5. 引用生成的dll
 > 6. 修改登陆参数并编译
+
+大致过程：
+> 1.mirai（kotlin部分）收到消息，post到localhost的.netcore服务器
+> 2.你要发信息时，localhost.netcore服务器post到c#部分，调用kotlin的mirai向qq发消息
