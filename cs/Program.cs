@@ -20,6 +20,7 @@ namespace QQ_LOCAL
             Console.WriteLine("[Main]:starting Mirai Bot");
             bot = new LCBOT();
             bot.init(1234567890, "123456", "C:\\apidb\\QQ","http://localhost/qqv3/x-local-recv");
+            //       账号         密码       数据目录         回掉链接
             Console.WriteLine("[Main]:Mirai Bot started");
             Console.WriteLine("[Main]:starting Http Listener");
             LIS = new HttpListener();
