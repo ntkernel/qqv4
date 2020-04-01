@@ -149,7 +149,7 @@ class LCBOT{
 
             cC++
         }
-        /*
+        /*旧版本mirai MessageChain
         while(cC<msg.size){
             //var cType
             if(msg[cC] is PlainText){
